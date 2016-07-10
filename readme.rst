@@ -63,15 +63,13 @@ Vagrant Terminal 3 (Command line interpreter) - UNSECURED peers (working)
 Vagrant Terminal 3 (Command line interpreter) - SECURED  peers (does not work yet)
 ===================================================================================
 
-`` 
-CORE_SECURITY_ENABLED=true CORE_SECURITY_PRIVACY=true peer chaincode deploy -p ./helloWorld -c '{"Function":"init", "Args":["noArgsyet"]}' -u lukas
+    CORE_SECURITY_ENABLED=true CORE_SECURITY_PRIVACY=true peer chaincode deploy -p ./helloWorld -c '{"Function":"init", "Args":["noArgsyet"]}' -u lukas
 
-CORE_SECURITY_ENABLED=true CORE_SECURITY_PRIVACY=true peer chaincode query -u lukas -l golang -n helloWorld -c '{"Function": "query", "Args": ["b"]}'
+    CORE_SECURITY_ENABLED=true CORE_SECURITY_PRIVACY=true peer chaincode query -u lukas -l golang -n helloWorld -c '{"Function": "query", "Args": ["b"]}'
 
-CORE_SECURITY_ENABLED=true CORE_SECURITY_PRIVACY=true peer chaincode invoke -l golang -u lukas -n helloWorld -c '{"Function":"invoke", "Args":["noArgsyet"]}'
+    CORE_SECURITY_ENABLED=true CORE_SECURITY_PRIVACY=true peer chaincode invoke -l golang -u lukas -n helloWorld -c '{"Function":"invoke", "Args":["noArgsyet"]}'
 
-CORE_SECURITY_ENABLED=true CORE_SECURITY_PRIVACY=true peer chaincode query -l golang -u lukas -n helloWorld -c '{"Function":"query", "Args":["noArgsyet"]}'
-`` 
+    CORE_SECURITY_ENABLED=true CORE_SECURITY_PRIVACY=true peer chaincode query -l golang -u lukas -n helloWorld -c '{"Function":"query", "Args":["noArgsyet"]}'
 
 ########################################
 Theory - books
