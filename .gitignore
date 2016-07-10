@@ -22,3 +22,15 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+
+# Created by https://www.gitignore.io/api/visualstudiocode
+
+### VisualStudioCode ###
+.vscode
+
+
+# Created by https://www.gitignore.io/api/git
+
+### Git ###
+*.orig
