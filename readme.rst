@@ -75,11 +75,11 @@ Vagrant Terminal 3 (Command line interpreter) - SECURED  peers (does not work ye
 Theory - books
 ########################################
 
-* Ledger, Protocol Specification : https://github.com/hyperledger/fabric/blob/960db9f57a5e19f1f097741c807c01cdbe86ada6/docs/protocol-spec.md
-* Chaincode APIs: https://github.com/hyperledger/fabric/blob/bf9f05014680ba2872eda3c18e42f742f8050066/docs/API/ChaincodeAPI.md
-* shim package : https://godoc.org/github.com/hyperledger/fabric/core/chaincode/shim
-* hyperledger asset management app: https://github.com/hyperledger/fabric/blob/012384ac7c2e8c16496e3c4f3a4b84cec301aead/examples/chaincode/go/asset_management/app/README.md
-
+* Ledger, chaincode
+    * Ledger, Protocol Specification : https://github.com/hyperledger/fabric/blob/960db9f57a5e19f1f097741c807c01cdbe86ada6/docs/protocol-spec.md
+    * Chaincode APIs: https://github.com/hyperledger/fabric/blob/bf9f05014680ba2872eda3c18e42f742f8050066/docs/API/ChaincodeAPI.md
+    * shim package : https://godoc.org/github.com/hyperledger/fabric/core/chaincode/shim
+    * hyperledger asset management app: https://github.com/hyperledger/fabric/blob/012384ac7c2e8c16496e3c4f3a4b84cec301aead/examples/chaincode/go/asset_management/app/README.md
 * Go language
     * https://golang.org/doc/code.html
     * https://golang.org/doc/effective_go.html
